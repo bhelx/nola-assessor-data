@@ -82,3 +82,9 @@ gunzip data.sql.gz
 # You may need to change the username here
 psql -U postgres nola_assessor_scraper < data.sql
 ```
+
+You can find csv exports in the `csv_exports` archive.
+
+```
+tar xzvf csv_exports.tar.gz
+```
